@@ -1,5 +1,6 @@
-#program to download image from internet
-
+"""
+program to download image from internet
+"""
 import random
 import urllib.request
 
