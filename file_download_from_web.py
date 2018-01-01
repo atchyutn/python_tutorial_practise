@@ -1,6 +1,9 @@
-#program to download a infosys stock data from internet
+'''
+program to download a infosys stock data from internet
 
+Disclaimer: This code is just for learning purpose, It was not used or will not be used any where.
 from urllib import request
+'''
 infy_url = "https://query1.finance.yahoo.com/v7/finance/download/INFY?period1=1512118192&period2=1514796592&interval=1d&events=history&crumb=dVBJ/YkeyWz"
 def download_csv(csv_url):
   """[summary]: Method to read a CSV from internet and write it into a local csv file
